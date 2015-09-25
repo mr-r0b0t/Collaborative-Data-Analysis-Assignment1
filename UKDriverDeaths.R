@@ -1,14 +1,14 @@
 ###########################################################
-# UKDriverDeaths
+# Seatbelts from "Road Casualties in Great Britain 1969¨C84"
 # Laurence & Claire
 # Sep. 25th, 2015
 ###########################################################
 
 
 
-data("UKDriverDeaths")
-summary(UKDriverDeaths)
-range(UKDriverDeaths)
-plot(UKDriverDeaths)
-sd(UKDriverDeaths)
-boxplot(UKDriverDeaths)
+data("Seatbelts")
+summary(Seatbelts$Driverskilled)
+range(Seatbelts$Driverskilled)
+plot(Seatbelts$Driverskilled)
+sd(Seatbelts$Driverskilled)
+boxplot(Seatbelts$Driverskilled)
